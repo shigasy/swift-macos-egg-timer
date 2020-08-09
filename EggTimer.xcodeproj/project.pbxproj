@@ -75,6 +75,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D126528724E03D7700E9DC34 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D126528424E038A500E9DC34 /* PrefsViewController.swift */,
+				D1ED2DF324DD945900715B2A /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D126528824E03DC000E9DC34 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				D1ED2DFA24DD945A00715B2A /* Info.plist */,
+				D1ED2DFB24DD945A00715B2A /* EggTimer.entitlements */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		D126528924E03E0200E9DC34 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		D1ED2DE524DD945900715B2A = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +107,7 @@
 				D1ED2E0324DD945A00715B2A /* EggTimerTests */,
 				D1ED2E0E24DD945A00715B2A /* EggTimerUITests */,
 				D1ED2DEF24DD945900715B2A /* Products */,
+				D126528824E03DC000E9DC34 /* SupportingFiles */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,13 +124,11 @@
 		D1ED2DF024DD945900715B2A /* EggTimer */ = {
 			isa = PBXGroup;
 			children = (
-				D126528424E038A500E9DC34 /* PrefsViewController.swift */,
 				D1ED2DF124DD945900715B2A /* AppDelegate.swift */,
-				D1ED2DF324DD945900715B2A /* ViewController.swift */,
+				D126528724E03D7700E9DC34 /* ViewControllers */,
 				D1ED2DF524DD945A00715B2A /* Assets.xcassets */,
+				D126528924E03E0200E9DC34 /* Model */,
 				D1ED2DF724DD945A00715B2A /* Main.storyboard */,
-				D1ED2DFA24DD945A00715B2A /* Info.plist */,
-				D1ED2DFB24DD945A00715B2A /* EggTimer.entitlements */,
 			);
 			path = EggTimer;
 			sourceTree = "<group>";
